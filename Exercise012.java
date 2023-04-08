@@ -6,22 +6,38 @@ public class Exercise012 {
 	public static void main(String[] args) {
 		// Write a Java program that takes three numbers as input to calculate and print
 		// the average of the numbers.
+		
+		System.out.println("Programa que recebe 3 número, e devolve a média dos mesmos.");
 
 		Scanner dataScanner = new Scanner(System.in);
 
-		System.out.println("Programa que recebe 3 números (inteiro) e imprime a média dos mesmos.");
-		System.out.println("Digite o primeiro número: ");
-		int number1 = dataScanner.nextInt();
+		int[] numbers = new int[3];
+		int media = 0;
+		int total = 0;
 
-		System.out.println("Digite o segundo número: ");
-		int number2 = dataScanner.nextInt();
+		for (int index = 0; index < numbers.length; index++) {
 
-		System.out.println("Digite o terceiro número: ");
-		int number3 = dataScanner.nextInt();
+			if (index == 0) {
+				System.out.println("Digite o primeiro número: ");
+			} else if (index == 1) {
+				System.out.println("Digite o segundo número: ");
+			} else {
+				System.out.println("Digite o terceiro número: ");
+			}
 
-		int media = (number1 + number2 + number3) / 3;
+			numbers[index] = dataScanner.nextInt();
 
-		System.out.println("A média dos números digitados é: " + media);
+			if (numbers[index] < 0) {
+				index--;
+			}
+		}
+
+		for (int elemento : numbers) {
+			total += elemento;
+			media = total / numbers.length;
+		}
+
+		System.out.println("\nA média dos número digitados foi: " + media);
 
 		dataScanner.close();
 	}
