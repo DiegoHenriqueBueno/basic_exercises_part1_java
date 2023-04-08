@@ -1,8 +1,8 @@
-package exerciciosBasicosParte1;
+package basicExercisesPart1;
 
 import java.util.Scanner;
 
-public class Exercicio007 {
+public class Exercise007 {
 	public static void main(String[] args) {
 
 		// Escreva um programa Java que receba um número como entrada e imprima sua

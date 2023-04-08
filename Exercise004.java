@@ -1,6 +1,6 @@
-package exerciciosBasicosParte1;
+package basicExercisesPart1;
 
-public class Exercicio004 {
+public class Exercise004 {
 	public static void main(String[] args) {
 
 		// Escreva um programa Java para imprimir o resultado das seguintes operações.

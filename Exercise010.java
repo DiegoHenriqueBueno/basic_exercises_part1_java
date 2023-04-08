@@ -1,6 +1,6 @@
-package exerciciosBasicosParte1;
+package basicExercisesPart1;
 
-public class Exercicio010 {
+public class Exercise010 {
 	public static void main(String[] args) {
 		// Escreva um programa Java para calcular uma fórmula especificada.
 		// Fórmula especificada:

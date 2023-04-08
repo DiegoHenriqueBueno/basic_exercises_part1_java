@@ -1,6 +1,6 @@
-package exerciciosBasicosParte1;
+package basicExercisesPart1;
 
-public class Exercicio008 {
+public class Exercise008 {
 	public static void main(String[] args) {
 
 		// Escreva um programa Java para exibir o seguinte padrão. Padrão de amostra:

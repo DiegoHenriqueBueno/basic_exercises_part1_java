@@ -1,6 +1,6 @@
-package exerciciosBasicosParte1;
+package basicExercisesPart1;
 
-public class Exercicio001 {
+public class Exercise001 {
 	public static void main(String[] args) {
 		// https://www.w3resource.com/java-exercises/basic/index.php
 		// Escreva um programa Java para imprimir 'Olá' na tela e, em seguida, imprima

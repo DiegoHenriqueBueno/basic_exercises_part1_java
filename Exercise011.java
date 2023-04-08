@@ -1,6 +1,6 @@
-package exerciciosBasicosParte1;
+package basicExercisesPart1;
 
-public class Exercicio011 {
+public class Exercise011 {
 	public static void main(String[] args) {
 		// Escreva um programa Java para imprimir a área e o perímetro de um círculo.
 		// Dados de teste:
@@ -13,6 +13,7 @@ public class Exercicio011 {
 		double area = Math.PI * raio * raio;
 
 		System.out.println(perimetro);
+		
 		System.out.println(area);
 	}
 }

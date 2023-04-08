@@ -1,6 +1,6 @@
-package exerciciosBasicosParte1;
+package basicExercisesPart1;
 
-public class Exercicio003 {
+public class Exercise003 {
 	public static void main(String[] args) {
 
 		// Escreva um programa Java para dividir dois números e imprima na tela.

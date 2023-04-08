@@ -1,6 +1,6 @@
-package exerciciosBasicosParte1;
+package basicExercisesPart1;
 
-public class Exercicio002 {
+public class Exercise002 {
 	public static void main(String[] args) {
 
 		// Escreva um programa Java para imprimir a soma de dois números.

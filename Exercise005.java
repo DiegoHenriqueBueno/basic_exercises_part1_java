@@ -1,6 +1,6 @@
-package exerciciosBasicosParte1;
+package basicExercisesPart1;
 
-public class Exercicio005 {
+public class Exercise005 {
 	public static void main(String[] args) {
 
 		// Escreva um programa Java que receba dois números como entrada e exiba o
