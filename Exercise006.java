@@ -15,8 +15,7 @@ public class Exercise006 {
 		// 125 / 24 = 5
 		// 125 mod 24 = 5
 
-		int firstNumber = 125;
-		int secondNumber = 24;
+		int firstNumber = 125, secondNumber = 24;
 
 		int sum = firstNumber + secondNumber;
 		int minus = firstNumber - secondNumber;

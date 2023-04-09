@@ -19,8 +19,7 @@ public class Exercise014 {
 		// ==============================================
 		// ==============================================
 
-		int asterisk = 0;
-		int equals = 0;
+		int asterisk = 0, equals = 0;
 
 		while (asterisk < 6) {
 			System.out.println("* * * * * * ==============================");

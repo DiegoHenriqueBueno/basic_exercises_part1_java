@@ -6,14 +6,13 @@ public class Exercise012 {
 	public static void main(String[] args) {
 		// Write a Java program that takes three numbers as input to calculate and print
 		// the average of the numbers.
-		
+
 		System.out.println("Programa que recebe 3 número, e devolve a média dos mesmos.");
 
 		Scanner dataScanner = new Scanner(System.in);
 
 		int[] numbers = new int[3];
-		int media = 0;
-		int total = 0;
+		int media = 0, total = 0;
 
 		for (int index = 0; index < numbers.length; index++) {
 

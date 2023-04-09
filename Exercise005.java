@@ -10,9 +10,7 @@ public class Exercise005 {
 		// Insira o segundo número: 5
 		// Saída esperada : 25 x 5 = 125
 
-		int firstNumber = 25;
-		int secondNumber = 5;
-		int produt = firstNumber * secondNumber;
+		int firstNumber = 25, secondNumber = 5, produt = firstNumber * secondNumber;
 
 		System.out.println(firstNumber + " x " + secondNumber + " = " + produt);
 	}
